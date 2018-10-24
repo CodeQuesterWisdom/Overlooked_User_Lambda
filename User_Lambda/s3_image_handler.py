@@ -45,8 +45,8 @@ def image_handler(firebaseID, encodedImage): #encoded_img -> param :
         encodedImage = remove_prefix(encodedImage)
         decodedImage = base64.b64decode(encodedImage)
         # print(decodedImage.format)
-        AWS_ACCESS_KEY_ID = 'AKIAJO3VG2R7WUJ3INVA'
-        AWS_SECRET_KEY_ID = '9HIqfWyfzgfdibVg2xACg42FckeLmR3kgHmluUSm'
+        AWS_ACCESS_KEY_ID = 'AKIAJNP5MTZJYBDXMQNA'
+        AWS_SECRET_KEY_ID = '96Ajv3F0s0mDZmDN5b78X8HRWzrokBpF538sPrUq'
 
         conn = boto.s3.connect_to_region('us-west-1',
         aws_access_key_id=AWS_ACCESS_KEY_ID,
